@@ -1,0 +1,13 @@
+One of the commonly requested features for OWL is some form of key
+support, generally phrased as allowing inverse-functional datatype
+properties. For a variety of technical reasons, these were not included in
+OWL DL (though they were available in OWL Full). OWL 2---a revision to OWL
+which is under development by the W3C---introduces a form of key
+representation, so-called ``Easy Keys'', which avoids much of the
+implementational pain of general inverse-functional datatype properties,
+``dumbs down'' nicely to weaker languages (like RDFS), and can be
+specified (or even implemented) in terms of \dlsafe rules. The Easy Key
+approach also allows for a form of compound key. In this paper we
+explicate the design and rationale of Easy Keys, sketch a decision
+procedure for them, and compare them with alternative possibilities,
+including general inverse-functional datatype properties.

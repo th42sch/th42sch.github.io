@@ -1,0 +1,103 @@
+Thomas Schneider
+
+The Complexity of Hybrid Logics over Restricted Frame Classes
+
+Dissertation, Jena, 2007
+
+Diese Dissertation untersucht die Komplexitaet von Entscheidungsproblemen fuer eine
+Familie hybrider Logiken ueber verschiedenen Klassen von Strukturen.
+
+Hybride Logiken sind Erweiterungen modaler Logik. Diese ist ein maechtiger, gut handhabbarer
+und wohluntersuchter Formalismus, mit dem man Eigenschaften von und Anforderungen an
+Anwendungen beschreiben kann, die durch relationale Strukturen modellierbar sind -- zum Beispiel das
+Verhalten von Dingen mit der Zeit, das Wissen von Agenten oder die Verifikation von Programmen.
+In all diesen Anwendungen bietet modale Logik eine lokale Perspektive, das heisst, man kann damit
+Dinge beschreiben, die in einzelnen Zustaenden relationaler Strukturen und in deren Nachfolgerzustaenden
+stattfinden. In Abhaengigkeit von der jeweiligen Anwendung werden bestimmte Varianten
+(oder Erweiterungen) modaler Logik verwendet -- beispielsweise temporale, epistemische
+oder dynamische Logik.
+
+Hybride Logiken bieten mehr Ausdruckskraft durch Namen fuer Zustaende von Strukturen und direkten
+Zugriff auf diese Zustaende. Das ist in vielen Anwendungen begehrt.
+So ist es im temporalen Fall nur natuerlich, Namen fuer Zeitpunkte zu haben und,
+unabhaengig von der "spaeter-als"-Relation, darauf zuzugreifen. Ausserdem kann man mittels
+hybrider Logik viele temporal relevanten Eigenschaften von Strukturen wie Irreflexivitaet,
+Antisymmetrie oder Trichotomie axiomatisieren. Wegen dieser Eigenschaften sind hybride
+Sprachen sehr begehrt, wann immer die modale Grundsprache an ihre Grenzen stoesst.
+
+Die Hauptbestandteile hybrider Logik, von einem temporalen Standpunkt aus betrachtet,
+sind die folgenden Ausdrucksmittel.
+
+* ZUKUNFTS- UND VERGANGENHEITSOPERATOREN
+  druecken aus:
+
+  "irgendwann in der Zukunft phi" oder "immer in der Vergangenheit phi"
+
+* UNTIL- UND SINCE-OPERATOREN
+  druecken zum Beispiel aus:
+
+  "irgendwann in der Zukunft psi, und von jetzt an bis dahin phi"
+
+* NOMINALE
+  geben Punkten in einer Struktur feste Namen
+
+* SPRUNGOPERATOREN
+  gestatten Spruenge zu benannten Punkten
+
+* BINDER
+  binden Namen dynamisch an Punkte
+
+* DIE GLOBALE MODALITAET
+  drueckt aus:
+
+  "irgendwann phi"
+
+In Abhaengigkeit von der jeweiligen Anwendung ist es angebracht, die Klasse
+der Strukturen auf diejenigen einzuschraenken, die die Anforderungen dieser
+Anwendung modellieren. Relevante Strukturenklassen fuer
+temporale oder epistemische Anwendungen sind beispielsweise transitive Strukturen,
+transitive Baeume, lineare Ordnungen, die natuerlichen Zahlen, Strukturen mit
+Aequivalenzrelationen (AeR-Strukturen) oder vollstaendige Strukturen.
+
+Die Entscheidbarkeit und die Komplexitaet von Entscheidungsproblemen fuer Logiken sind
+relevant fuer das automatisierte Loesen dieser Probleme. Wir untersuchen systematisch
+das Erfuellbarkeitsproblem und das Model-Checking-Problem fuer alle relevanten
+hybriden Sprachen, die beliebige Kombinationen der oben aufgefuehrten Operatoren
+enthalten, bezueglich der genannten Strukturenklassen. Das schliesst
+ein, eine Hierarchie aller dieser Sprachen aufzustellen, Ergebnisse aus der Literatur
+dort einzuordnen und eigene Resultate beizusteuern.
+Im Einzelnen beweisen wir die folgenden Hauptergebnisse unter Zuhilfenahme einer
+breiten Palette von Techniken.
+
+* Das Model-Checking-Problem fuer Sprachen mit Bindern bleibt PSPACE-vollstaendig
+  ueber allen genannten Strukturenklassen. (Kapitel 4)
+
+* Das Erfuellbarkeitsproblem fuer hybride Until-/Since-Sprachen ueber transitiven
+  Strukturen ist EXPTIME-hart und in 2EXPTIME. (Abschnitt 5.4)
+
+* Das Erfuellbarkeitsproblem fuer fast alle Erweiterungen der kleinsten Bindersprache
+  ueber transitiven Strukturen ist unentscheidbar. (Abschnitt 5.4)
+
+* Das Erfuellbarkeitsproblem fuer hybride Until-/Since-Sprachen ueber transitiven
+  Baeumen ist EXPTIME-vollstaendig. (Abschnitt 5.5)
+
+* Das Erfuellbarkeitsproblem fuer alle Sprachen mit Bindern ueber transitiven Baeumen ist
+  nichtelementar entscheidbar. (Abschnitt 5.5)
+
+* Das Erfuellbarkeitsproblem fuer hybride Sprachen ohne Binder ueber AeR-Strukturen
+  ist NP-vollstaendig. (Abschnitt 5.8)
+
+* Das Erfuellbarkeitsproblem fuer die Sprache mit allen Operatoren ueber AeR-Strukturen
+  ist N2EXPTIME-vollstaendig. (Abschnitt 5.8)
+
+* Das Erfuellbarkeitsproblem fuer alle uebrigen hybriden Sprachen ueber AeR-Strukturen
+  ist NEXPTIME-vollstaendig. (Abschnitt 5.8)
+
+* Das Erfuellbarkeitsproblem fuer die bimodale Version der kleinsten Bindersprache
+  ueber vielen Strukturenklassen, darunter fast alle der oben genannten,
+  ist unentscheidbar. (Kapitel 6)
+
+Diese Dissertation enthaelt Material, das auf den Workshops "Methods for Modalities"
+(2005, fuer eine Sonderausgabe des "Journal of Logic, Language and Information" angenommen)
+und "Hybrid Logic" (2006 und 2007) praesentiert und in den zugehoerigen Tagungsbaenden
+veroeffentlicht wurde.

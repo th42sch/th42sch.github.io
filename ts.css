@@ -1,0 +1,51 @@
+BODY {
+  background-color: #ffffff;
+  color:#000000;
+  font-family: Helvetica, Arial, Sans-Serif; padding: 0;
+}
+body {
+  background-color: #ffffff;
+  color:#000000;
+  font-family: Helvetica, Arial, Sans-Serif; padding: 0;
+}
+
+a,a:link   {color: #0066cc;}
+a:visited  {color: #616161;}
+a:hover    {color: #616161;}
+/*h1         {color: #303072; font-size: 2.0em; margin: 1em 0 1em 0; padding: 0.2em 0;}
+h2         {color: #202062; font-size: 1.5em; margin: 0.7em 0 0.7em 0; padding: 0;}
+h3         {color: #101052; font-size: 1.3em; margin: 0.4em 0 0.4em 0; padding: 0;}*/
+h1         {color: #000042; font-size: 1.5em; margin: 0.6em 0 0.6em 0; padding: 0.2em 0;}
+h2         {color: #000042; font-size: 1.2em; margin: 0.4em 0 0.4em 0; padding: 0;}
+h3         {color: #000042; font-size: 1em; margin: 0.2em 0 0.2em 0; padding: 0;}
+p          {color: #000000; font-size: 0.9em; margin: 0.5em 0 0.8em 0; padding: 0;}
+li,ul,ol,dl {color: #000000; font-size: 0.9em;}
+table.pure {color: #000000; font-size: 0.9em;}
+img        {border: 0; margin: 0 0 0 0; padding: 0;}
+hr         {color:#000042; background-color:#000042; width:90%; height:4px; text-align:center; border:0;}
+/* hr         {margin: 0 0 0 0; padding: 0; color: #555555} */
+.credits   {font-size: 85%; margin: 0 0 0 0; padding: 0;}
+
+table.navi           {color: #ffffff; background-color: #000042;}
+td.navi              {text-align: center; color: #ffffff; background-color: #000042;}
+a.navi,a.navi:link   {color: #eeeeff;}
+a.navi:visited       {color: #ccccff;}
+a.navi:hover         {color: #ccccff;}
+
+
+p.breadcrumbs {position: absolute; top: 10px; left: 200px; font-size:12px;}
+
+p.grayedout                    {color: #808080;}
+td.grayedout                   {color: #808080;}
+a.grayedout,a.grayedout:link   {color: #80b2e5;}
+a.grayedout:visited            {color: #b0b0b0;}
+a.grayedout:hover              {color: #b0b0b0;}
+
+.grayedout{color: #909090;}
+
+table.versions {width:100%; border-collapse:collapse;}
+table.versions td {left: 20px; padding: 4px;}
+td.version {font-weight:bold;}
+tr.odd {background-color:#e8e8ff;}
+
+

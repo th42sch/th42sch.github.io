@@ -1,0 +1,12 @@
+This paper examines the complexity of hybrid logics over transitive
+frames and transitive trees. We show that satisfiability over transitive
+frames for the hybrid language extended with downarrow is NEXP-complete.
+This is in contrast to undecidability of satisfiability over arbitrary
+frames for this language [Areces, Blackburn, Marx 1999]. We also show
+that adding @ or the past modality leads to undecidability over
+transitive frames, but not over transitive trees, where we show the
+richest language to be nonelementarily decidable. Moreover, we establish
+2EXP and EXP upper bounds for satisfiability over transitive frames and
+transitive trees, respectively, for the hybrid Until/Since language. An
+EXP lower bound is shown to hold for the modal Until language over both
+frame classes.

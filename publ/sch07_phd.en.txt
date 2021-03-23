@@ -1,0 +1,55 @@
+Thomas Schneider
+
+The Complexity of Hybrid Logics over Restricted Frame Classes
+
+Dissertation, Jena, 2007
+
+This dissertation examines the computational complexity of decision problems for a collection of
+hybrid logics over different classes of frames.
+
+Hybrid logics are extensions of modal logic that allow, in addition to the usual perspective
+on states and their successors in relational structures, for naming and accessing states of a
+structure explicitly. These features are very desirable in many applications, for example,
+in the temporal or epistemic context.
+
+We will systematically examine decidability and the computational complexity of
+satisfiability and the model-checking problem for a systematic collection of hybrid languages
+with respect to temporally and epistemically relevant classes of structures. This includes
+establishing a hierarchy of all relevant languages
+over these classes, arranging results from the literature into this hierarchy,
+and contributing our own results.
+In particular, we prove the following main results, involving a wide range of
+techniques for establishing complexity bounds of logics.
+
+* The model-checking problem for all binder languages remains PSPACE-complete
+  over restricted classes of structures. (Chapter 4)
+
+* The satisfiability problem for hybrid until/since languages over transitive structures
+  is EXPTIME-hard and in 2EXPTIME. (Section 5.4)
+
+* The satisfiability problem for almost all extensions of the smallest binder language
+  over transitive structures is undecidable. (Section 5.4)
+
+* The satisfiability problem for hybrid until/since languages over transitive trees
+  is EXPTIME-complete. (Section 5.5)
+
+* The satisfiability problem for all binder languages over transitive trees is
+  nonelementarily decidable. (Section 5.5)
+
+* The satisfiability problem for binder-free hybrid languages over ER structures
+  is NP-complete. (Section 5.8)
+
+* The satisfiability problem for the language with all operators over ER structures
+  is N2EXPTIME-complete. (Section 5.8)
+
+* The satisfiability problem for all remaining hybrid languages over ER structures
+  is NEXPTIME-complete. (Section 5.8)
+
+* The satisfiability problem for the bi-modal version of the smallest binder language
+  over many classes of structures, including many restricted ones,
+  is undecidable. (Chapter 6)
+
+This dissertation contains material presented at, and published in the proceedings of,
+the workshops "Methods for Modalities" (2005, accepted for a special issue
+of the Journal of Logic, Language and Information) and "Hybrid Logic" (2006 and 2007).
+

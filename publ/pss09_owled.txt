@@ -1,0 +1,7 @@
+The current OWL 2 specification provides mechanisms for importing whole
+ontologies. This paper discusses the import of only a module of an
+external ontology, which is specified by a set of terms (classes and
+properties) and defined in such a way that it contains "all knowledge" of
+the external ontology about these terms. We discuss possible design
+choices for such an import mechanism, based on the well-understood
+properties of logic-based module extraction techniques.

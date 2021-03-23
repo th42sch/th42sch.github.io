@@ -1,0 +1,9 @@
+Hybrid logic is an expressive specification language, but has an
+undecidable satisfiability problem in general. In this paper, we restrict
+the set of Boolean operators to monotone operators (for instance conjunction and disjunction)
+and the underlying frames to commonly used acyclic frames, namely transitive trees, total transitive
+trees, linear orders, and the natural numbers. We show that, under these restrictions,
+satisfiability is decidable for 16 fragments arising from different combinations
+of modal and hybrid operators. More precisely, we categorise these fragments to be
+PSPACE-complete, NP-complete or tractable, where the latter cases are contained in
+detLOGCFL or complete for NC1.

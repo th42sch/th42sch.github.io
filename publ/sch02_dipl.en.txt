@@ -1,0 +1,14 @@
+Complexity of Modal Logics
+
+This thesis examines the complexity of the satisfiability problem for
+systems of modal propositional logic. It addresses the relevant aspects
+of the theory of modal logics and establishes a hierarchy of important
+normal modal systems by means of semantical considerations. The main
+focus of the complexity-theoretic examinations lies on normal uni-modal
+logics that are complete for the class NP. Besides results known from the
+literature, NP-completeness of the systems D4E, K4B, and K4E is shown.
+Furthermore, an overview of known PSPACE-completeness results is given.
+NP-completeness of the logics K4.2 and S4.2 as well as PSPACE-
+completeness of KE, KB, DE, DB, and B is conjectured. Another open
+question is the existence of a unique reducibility between modal systems
+that are included in each other.

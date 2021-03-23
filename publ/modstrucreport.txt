@@ -1,0 +1,20 @@
+Efficiently extracting a module from a given ontology that captures
+all the ontology's knowledge about a set of specified terms is
+well-understood task. It can be solved, for instance, by
+locality-based modules.
+
+In contrast, extracting *all* modules of an ontology is computationally
+difficult because there can be exponentially many. However, it is
+reasonable to assume that, by revealing the modular structure of an
+ontology, we can obtain information about its topicality,
+connectedness, structure, superfluous parts, or agreement between
+actual and intended modeling. Furthermore, incremental reasoning
+makes use of a number of, although not all possible, modules of an
+ontology.
+
+Chances are that real-life ontologies have significantly fewer
+modules than the worst cases. We report on experiments to obtain or estimate this number
+and to evaluate the modular structure of an ontology where we
+succeeded to compute it. In that evaluation, we look at the number and
+sizes of the modules, as well as the relation between module sizes and number and
+sizes of signatures that lead to the module.

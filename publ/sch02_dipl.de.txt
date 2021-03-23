@@ -1,0 +1,16 @@
+Komplexitaet modaler Logiken
+
+In dieser Arbeit wird das Erfuellbarkeitsproblem von Systemen der modalen
+Aussagenlogik komplexitaetstheoretisch untersucht. Um dies vorzubereiten,
+wird auf die erforderlichen Aspekte der Theorie modaler Logiken
+eingegangen und eine Hierarchie wichtiger normaler modaler Systeme anhand
+semantischer Gesichtspunkte aufgestellt. Das Hauptaugenmerk der
+komplexitaetstheoretischen Betrachtungen richtet sich auf normale
+unimodale Logiken, die fuer die Klasse NP vollstaendig sind. Neben aus
+der Literatur bekannten Resultaten wird die NP-Vollstaendigkeit der
+Systeme D4E, K4B und K4E gezeigt. Ausserdem wird ein Ueberblick ueber
+bisher bekannte PSPACE-Vollstaendigkeitsergebnisse gegeben. Vermutet wird
+die NP-Vollstaendigkeit der Logiken K4.2 und S4.2 sowie die PSPACE-
+Vollstaendigkeit von KE, KB, DE, DB, B. Eine weitere offene Frage ist die
+nach einer einheitlichen Reduzierbarkeit zwischen modalen Systemen, die
+ineinander enthalten sind.

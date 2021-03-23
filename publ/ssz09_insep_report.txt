@@ -1,0 +1,6 @@
+There are various techniques to specifying a module of an ontology that
+covers all knowledge about a given set of terms. These differ with respect
+to the size of the module, the complexity of its computation, and certain
+robustness properties. It is the aim of this paper to compare these
+different kinds of modules with respect to their properties and to give
+guidelines on how to choose "the right kind of module".
